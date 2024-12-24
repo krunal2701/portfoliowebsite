@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krunal S. Solanki Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: linear-gradient(90deg, #0047ab, #0073e6);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffdd00;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.5);
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 1200px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            border-bottom: 2px solid #0047ab;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .skills ul, .experience ul, .education ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .experience li, .education li {
+            background: #f4f4f4;
+            margin: 0.5rem 0;
+            padding: 0.5rem 1rem;
+            border-left: 4px solid #0047ab;
+            transition: background 0.3s;
+        }
+        .skills li:hover, .experience li:hover, .education li:hover {
+            background: #eaf3ff;
+        }
+        .contact {
+            text-align: center;
+            padding: 2rem;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: auto;
+            background: #f4f4f4;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 0.7rem;
+            margin: 0.7rem 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .contact form button {
+            padding: 0.8rem 2rem;
+            background: #0047ab;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact form button:hover {
+            background: #003580;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .profile-picture {
+            display: block;
+            margin: 0 auto 1rem auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #0047ab;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krunal S. Solanki</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div>
+            <h2>Welcome! I am Krunal, a Front Desk & Business Specialist.</h2>
+            <p>Looking for opportunities to deliver exceptional service and drive business success.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Myphoto.png" alt="Profile Picture" class="profile-picture">
+        <p>I am proficient in performing multi-level activities, customer service, and managing operations. With experience as a restaurant manager, guest environment expert, and supply chain professional, I bring strong leadership and problem-solving skills to the table.</p>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Customer Service</li>
+            <li>Front Office Management</li>
+            <li>Supply Chain Management</li>
+            <li>Restaurant Operations</li>
+            <li>Technical Support</li>
+        </ul>
+    </section>
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Guest Environment Expert</strong> - Hotel Delta | Sep 2023 - Apr 2024</li>
+            <li><strong>Front Desk</strong> - Traveler’s INN | May 2022 - Mar 2023</li>
+            <li><strong>Restaurant Manager</strong> - La Mere Sabboha | Sep 2019 - Jan 2021</li>
+        </ul>
+    </section>
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Postgraduate - Fintech</strong>, Conestoga College, ON | 2023</li>
+            <li><strong>Postgraduate - Supply Chain Management</strong>, Loyalist College, ON | 2022</li>
+            <li><strong>MBA - Business Administration</strong>, Swiss Institute of Hospitality and Management, Switzerland | 2015</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <a href="https://www.linkedin.com/in/krunal-solanki" target="_blank" style="display: inline-block; margin-bottom: 1rem; font-size: 1.2rem; color: #0047ab; text-decoration: none;">Connect on LinkedIn</a>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Krunal S. Solanki. All rights reserved.</p>
+    </footer>
+</body>
+</html>
